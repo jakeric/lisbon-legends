@@ -1,2 +1,23 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+
+<div class="container">
+  <h1>HOMEPAGE</h1>
+  <%= link_to "Logout", destroy_user_session_path, :method => :delete %>
+</div>
+
+<div class="container">
+  <h3>Intro</h3>
+  <p>here should be an short intro: why was this website been created and what you can do here</p>
+</div>
+
+<div class="container">
+  <h3>Cards of the people</h3>
+  <!-- each card should be a link to the show page of the person. On the show page are all the sounds -->
+
+  <div class="row">
+    <% 10.times do %>
+    <div class="col-xs-12 col-sm-4 col-md-3 card">
+      <h5>firstname lastname</h5>
+    </div>
+    <% end %>
+  </div>
+</div>

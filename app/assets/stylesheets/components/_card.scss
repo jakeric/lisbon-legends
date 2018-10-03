@@ -1,0 +1,33 @@
+.person-card {
+  margin: 20px auto;
+  height: 200px;
+
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgba(200,200,200,0.5);
+  transition: box-shadow 0.5s ease;
+  &:hover {
+  box-shadow: 8px 8px 13px rgba(200,200,200,0.8);
+  }
+}
+
+.card {
+  background-size: cover !important;
+  background-position: center;
+  height : 200px;
+  position: relative;
+  border-radius: 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;
+  background-color: #40A8C4;
+}
+
+.intro-card {
+  margin: 20px auto;
+  height: 200px;
+
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgba(200,200,200,0.5);
+  transition: box-shadow 0.5s ease;
+  &:hover {
+  box-shadow: 8px 8px 13px rgba(200,200,200,0.8);
+  }
+}
