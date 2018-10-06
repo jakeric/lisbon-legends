@@ -1,6 +1,7 @@
 // Specific CSS for your home-page
 body {
-  background: white; /* fallback for old browsers */
+  background: white;
+   // fallback for old browsers */
   // background: -webkit-linear-gradient(to right, #1f4037, #99f2c8); /* Chrome 10-25, Safari 5.1-6 */
   // background: linear-gradient(to right, #1f4037, #99f2c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
@@ -12,6 +13,17 @@ body {
   height: 100vh;
 }
 
+.wrapper {
+  align-items: center;
+  text-align: center;
+}
+
+.subtext {
+  background-color: #FF4E4E;
+  color: white;
+  // margin-left: 20px;
+  // margin-right: 20px;
+}
 
 
 

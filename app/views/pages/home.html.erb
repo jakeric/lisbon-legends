@@ -1,23 +1,30 @@
+<div class="wrapper">
+  <div class="container">
+    <%= link_to "Logout", destroy_user_session_path, :method => :delete %>
+    <h1>BATCH#162</h1>
+    <p class="subtext">and it's legendary crew</p>
+  </div>
 
-<div class="container">
-  <h1>HOMEPAGE</h1>
-  <%= link_to "Logout", destroy_user_session_path, :method => :delete %>
-</div>
+  <div class="container">
+    <p>here should be an short intro: why was this website been created and what you can do here</p>
 
-<div class="container">
-  <h3>Intro</h3>
-  <p>here should be an short intro: why was this website been created and what you can do here</p>
-</div>
-
-<div class="container">
-  <h3>Cards of the people</h3>
-  <!-- each card should be a link to the show page of the person. On the show page are all the sounds -->
-
-  <div class="row">
-    <% 10.times do %>
-    <div class="col-xs-12 col-sm-4 col-md-3 card">
-      <h5>firstname lastname</h5>
+    <!-- <h3>Cards of the people</h3> -->
+    <!-- each card should be a link to the show page of the person. On the show page are all the sounds -->
+    <div class="container">
+      <div class="row ">
+        <% 10.times do %>
+        <div class="col-xs-12 col-sm-4 col-md-3 ">
+          <div class="card">
+            <!--need to add container for avatar-->
+            <div class="card-name">
+            <h5>firstname lastname</h5>
+            </div>
+          </div>
+        </div>
+        <% end %>
+      </div>
     </div>
-    <% end %>
   </div>
 </div>
+
+
